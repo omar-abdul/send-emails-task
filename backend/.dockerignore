@@ -1,0 +1,6 @@
+fly.toml
+upload/
+.venv/
+download/
+.env
+serviceAccount.json

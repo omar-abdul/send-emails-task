@@ -1,0 +1,5 @@
+# TODO: Modify this Procfile to fit your needs
+
+<!-- web: gunicorn app:app
+worker: celery -A app.celery worker --loglevel=info
+flower: celery -A app.celery --port=5555 --broker=redis://default:5178e7e2c78a4deba7bb0821846ac907@fly-fragrant-cloud-3696.upstash.io:6379/0 -->
